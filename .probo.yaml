@@ -1,11 +1,10 @@
 image: proboci/ubuntu-14.04-lamp:php-7.1-nightly
+assets:
+  - wpengine_zivtech.sql
 steps:
   - name: Test Connection
     plugin: Shell
     command: 'echo "Hello World!"'
-assets:
-  - wpengine_zivtech.sql
-steps:
   - name: Site setup
     plugin: WordPressApp
     database: 'wpengine_zivtech.sql'
