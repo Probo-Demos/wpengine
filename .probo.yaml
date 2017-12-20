@@ -4,7 +4,7 @@ assets:
 steps:
   - name: Test Connection
     plugin: Shell
-    command: 'echo "Hello World!"'
+    command: 'echo "Hi, I was edited in the GitHub editor."'
   - name: Site setup
     plugin: WordPressApp
     database: 'wpengine_zivtech.sql'
