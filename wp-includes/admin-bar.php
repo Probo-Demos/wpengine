@@ -5,7 +5,7 @@
  * @package WordPress
  * @subpackage Toolbar
  * @since 3.1.0
- */
+ */sdasdasdasd
 
 /**
  * Instantiate the admin bar object and set it up as a global for access elsewhere.
